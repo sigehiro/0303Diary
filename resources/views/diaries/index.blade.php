@@ -1,5 +1,5 @@
-@extends('diaries.layout')
-{{-- layoutsファイルの中のappを使いますよということ。カミーユの時に作ったページでは、diariesの中にlayoutsのフォルダーを作っているからこの様な書き方になる。もしlayoutsが無かった場合には、(diaries.app)となるので注意。 nexseedの作ったテンプレートは間違っているので注意。--}}
+@extends('layouts.app')
+{{-- layoutsファイルの中のappを使いますよということ。カミーユの時に作ったページでは、diariesの中にlayoutsのフォルダーを作っているからこの様な書き方になる。もしlayoutsが無かった場合には、(diaries.app)となるので注意。 nexseedの作ったテンプレートは間違っているので注意。認証機能作成時に('layout.app')に変更になる--}}
 
 @section('title')
 一覧

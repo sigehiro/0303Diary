@@ -1,4 +1,4 @@
-@extends('diaries.layout')
+@extends('layouts.app')
 @section('title')
     一覧
 @endsection
